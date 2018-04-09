@@ -1,0 +1,105 @@
+body{width: 100%;height: 100%;position: absolute;}
+
+.m_sousuo{width: 1.8rem; height:0.8rem;
+    position: absolute;
+    top:0; left:50%; transform:translateX(-50%);vertical-align: middle;color: white;}
+#header form{ width: 100%; height: 1rem; display: block; padding:0 0.3rem;}
+#header form input[type=text]{width:100%;height: 0.6rem;background: white; margin-top: 0.24rem;border-radius: 0.5rem;
+    padding-left:0.26rem;font-size: 0.24rem}
+
+
+.list {
+    max-width:7.5rem;
+    min-width: 3.2rem;
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+    background:white;
+    position:relative;
+}
+.listimg{
+    margin-top: 1.88rem;
+}
+.listimg ul{ width: 100%;
+    height:100%;}
+.listimg ul li{ width: 33.33%; height: 0.8rem;
+float: left; border-bottom: 1px solid #f0f0f0;border-right: 1px solid #f0f0f0;}
+.listimg ul li a{ width: 100%;
+    height:100%; display: block;}
+.listimg ul li a img{ width: auto;
+    height:100%; display: block;
+    margin:0 auto;
+    }
+.listimg ul li:nth-child(3n){ border-right:0 none; }
+
+.fontone ul{width: 100%;
+            height: 100%;
+            margin-top: 0.1rem;
+}
+.fontone ul li{
+    width: 25%;height:0.74rem;border-bottom: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;float: left;
+    border-top: 1px solid #f0f0f0;
+    text-align: center;
+    }
+.fontone ul li span{
+    margin-top: 0.2rem;
+    display: inline-block;
+    font-size: 0.24rem;
+    color: #666666;
+}
+.back{
+    width:7.5rem;
+    height: 0.16rem;
+    background: #f0f0f0;
+    margin-top: 0.01rem;
+}
+.near span{
+    color: #15bf8e;
+    font-size: 0.24rem;
+    padding-left:0.3rem ;
+    padding-top: 0.1rem;
+}
+.backtwo{
+    width:7.5rem;
+    height: 0.16rem;
+    background: #f0f0f0;
+    margin-top: 0.1rem;
+}
+.gaofa{
+    color: #15bf8e;
+    font-size: 0.24rem;
+    padding-left:0.3rem ;
+    padding-top: 0.1rem;
+}
+.remen span{
+    color: #15bf8e;
+    font-size: 0.24rem;
+    padding-left:0.3rem ;
+    padding-top: 0.1rem;
+}
+.bottomimg ul{
+    width: 100%;
+    height: 100%;
+}
+.bottomimg ul li{
+    width: 25%;
+    height:0.9rem;
+    float: left;
+    padding-left:0.3rem ;
+    border-bottom: 1px solid #f0f0f0;
+    border-right:1px solid #f0f0f0 ;
+    border-top:1px solid #f0f0f0 ;
+    padding-top: 0.1rem;
+}
+.bottomimg ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.bottomimg ul li a img{ width: 100%;
+    height:100%; display: block;
+    margin:0 auto;
+    /*padding-left: -0.3rem;*/
+}
+

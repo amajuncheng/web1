@@ -1,0 +1,23 @@
+/*搜索*/
+.m_sousuo{width: 1.8rem; height:0.8rem;
+    position: absolute;
+    top:0; left:50%; transform:translateX(-50%);vertical-align: middle;color: white;}
+#header form{ width: 100%; height: 1rem; display: block; padding:0 0.3rem;}
+#header form input[type=text]{width:100%;height: 0.6rem;background: white; margin-top: 0.24rem;border-radius: 0.5rem;
+    padding-left:0.26rem;}
+.main_wrap{
+    position: relative; margin-top: 1.8rem;height: 1000px;}
+.banner{ width: 100%;}
+.banner .swiper-container{ width: 100%;}
+.banner .swiper-container .swiper-slide img{width:100%;}
+nav{width:7.5rem;height:3rem;background: white;margin: 0 auto;}
+nav ul{width:100%;height:100%;}
+nav ul li{width:25%;height:1.2rem; float:left; text-align: center;margin-top:0.16rem;font-size: 0.22rem;}
+nav ul li a img{width:0.7rem;height:0.7rem;margin:0 auto;}
+nav ul li a {font-size: 0.22rem;color:#666666;margin-top: 0.04rem;}
+.dibutu ul{
+    border-top: 0.01rem solid #bdbdbd;
+}
+
+
+

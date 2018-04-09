@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/index.css">
+    <script src="js/adaptive.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <link rel="stylesheet" href="style/swiper-4.1.6.min.css">
+
+</head>
+<body>
+<div id="header" >
+    <div class="header">
+        <div class="m_header_left iconfont">&#xe6dd;</div>
+
+        <div class="m_header_right iconfont">&#xe606;</div>
+        <div class="m_sousuo" style="margin-top: 0.24rem;">
+            <div class="m_search iconfont fl" style="margin-top: 0.04rem;font-size: 0.32rem;" >&#xe6f8;</div>
+            <span class="shanghai fl" >上海市</span>
+        </div>
+    </div>
+    <form action="">
+    <input type="text" placeholder="请输入关键字">
+    </form>
+</div>
+<main>
+    <div class="main_wrap m_layout">
+        <!--banner-->
+        <div class="banner">
+            <!--swiper-container-->
+            <div class="swiper-container">
+                <div class="swiper-wrapper" >
+                    <div class="swiper-slide"><a href="#"><img src="images/1.jpg.jpg"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/2.jpg.png"></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/3.jpg.png"></a></div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <!--swiper-container end-->
+        </div>
+        <!--banner end-->
+        <nav>
+        <ul>
+            <li>
+                <a href="#"><img src="images/APP_03.png" alt="">商品分类</a>
+            </li>
+            <li>
+                <a href="#"><img src="images/APP_05.png" alt="">附近药店</a>
+            </li>
+            <li>
+                <a href="#"><img src="images/APP_08.png" alt="">健康问答</a>
+            </li>
+            <li>
+                <a href="#"><img src="images/APP_10.png" alt="">签到抽奖</a>
+            </li>
+            <li>
+                <a href="#"><img src="images/APP_17.png" alt="">男性</a>
+            </li>
+            <li>
+                <a href="#"><img src="images/APP_19.png" alt="">女性</a>
+            </li>
+            <li>
+                <a href="#"><img src="images/APP_21.png" alt="">老人</a>
+            </li>
+            <li>
+                <a href="#"><img src="images/APP_23.png" alt="">儿童</a>
+            </li>
+        </ul>
+        <div class="floor_banner">
+            <img src="images/4.jpg" alt="">
+        </div>
+
+
+    </nav>
+    </div>
+</main>
+<div class="dibutu">
+    <ul>
+        <li>
+            <img src="images/7.png" alt="">
+            <p>首页</p>
+        </li>
+        <li>
+            <img src="images/5.png" alt="">
+            <p>搜索</p>
+        </li>
+        <li>
+            <img src="images/6.png" alt="">
+            <p>购物车</p>
+        </li>
+        <li>
+            <img src="images/8.png" alt="">
+            <p>商店</p>
+        </li>
+    </ul>
+</div>
+
+<script src="js/swiper-4.1.6.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        loop : true,
+        autoplay: {
+		  stopOnLastSlide: false,
+		  disableOnInteraction: false,
+    	  delay: 3000,//1秒切换一次
+  		},
+        pagination: {
+            el: '.swiper-pagination',
+            clickable :true,
+        },
+    });
+</script>
+
+<script src="js/swiper-4.1.6.min.js"></script>
+
+</body>
+</html>

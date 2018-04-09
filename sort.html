@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/sort.css">
+    <script src="js/adaptive.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <link rel="stylesheet" href="style/swiper-4.1.6.min.css">
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".tabs li").click(function() {
+                $(".tabs li a").removeClass("current");
+                $(this).children("a").addClass("current");
+
+                $(".sort_right").hide(0);
+                $(".sort_right:eq(" + $(this).index() + ")").show(0);
+            });
+
+        });
+    </script>
+
+</head>
+<body>
+<!--头部开始-->
+<div class="list-header">
+        <div class="header_left iconfont">
+            &#xe735;
+        </div>
+        <div class="header_fl">
+            <span>商品分类</span>
+        </div>
+        <div class="header_bj">
+            <span>编辑</span>
+        </div>
+</div>
+<!--头部结束-->
+<!--内容开始-->
+<section class="sort m_layout">
+    <div class="sort-left">
+        <ul class="tabs">
+            <li ><a href="#" class="current">中西药品</a></li>
+            <li><a href="#">养生保健</a></li>
+            <li><a href="#">医疗器械</a></li>
+            <li><a href="#">计生用品</a></li>
+            <li><a href="#">中药饮品</a></li>
+            <li><a href="#">美容护肤</a></li>
+            <li><a href="#">中西药品</a></li>
+            <li><a href="#">养生保健</a></li>
+            <li><a href="#">医疗器械</a></li>
+            <li><a href="#">计生用品</a></li>
+            <li><a href="#">中药饮品</a></li>
+            <li><a href="#">美容护肤</a></li>
+        </ul>
+    </div>
+    <div class="sort_right" style="display: block;">
+        <div class="con">
+            <p class="tit">胃肠用药</p>
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <img src="images/10.gif" alt="">
+                        <p>胃炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/11.gif" alt="">
+                        <p>胃溃疡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/12.gif" alt="">
+                        <p>急性肠炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/13.gif" alt="">
+                        <p>十二指肠溃疡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/14.gif" alt="">
+                        <p>胆囊炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/15.gif" alt="">
+                        <p>便秘</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/16.gif" alt="">
+                        <p>消化不良</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/17.gif" alt="">
+                        <p>痔疮</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/18.gif" alt="">
+                        <p>腹痛腹泻</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/19.gif" alt="">
+                        <p>支气管炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/20.gif" alt="">
+                        <p>咳嗽肺热</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/21.gif" alt="">
+                        <p>哮喘</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/22.gif" alt="">
+                        <p>气管炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/23.gif" alt="">
+                        <p>肺结核</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/24.gif" alt="">
+                        <p>胃炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/25.gif" alt="">
+                        <p>高血压</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/26.gif" alt="">
+                        <p>心肌炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/27.gif" alt="">
+                        <p>脑血栓</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sort_right" style="display: none;">
+        <div class="con">
+            <p class="tit">养生保健</p>
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <img src="images/10.gif" alt="">
+                        <p>胃炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/11.gif" alt="">
+                        <p>胃溃疡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/12.gif" alt="">
+                        <p>急性肠炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/13.gif" alt="">
+                        <p>十二指肠溃疡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/14.gif" alt="">
+                        <p>胆囊炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/15.gif" alt="">
+                        <p>便秘</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/16.gif" alt="">
+                        <p>消化不良</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/17.gif" alt="">
+                        <p>痔疮</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/18.gif" alt="">
+                        <p>腹痛腹泻</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/19.gif" alt="">
+                        <p>支气管炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/20.gif" alt="">
+                        <p>咳嗽肺热</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/21.gif" alt="">
+                        <p>哮喘</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/22.gif" alt="">
+                        <p>气管炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/23.gif" alt="">
+                        <p>肺结核</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/24.gif" alt="">
+                        <p>胃炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/25.gif" alt="">
+                        <p>高血压</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/26.gif" alt="">
+                        <p>心肌炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/27.gif" alt="">
+                        <p>脑血栓</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sort_right" style="display: none;">
+        <div class="con">
+            <p class="tit">医疗器械</p>
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <img src="images/10.gif" alt="">
+                        <p>胃炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/11.gif" alt="">
+                        <p>胃溃疡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/12.gif" alt="">
+                        <p>急性肠炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/13.gif" alt="">
+                        <p>十二指肠溃疡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/14.gif" alt="">
+                        <p>胆囊炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/15.gif" alt="">
+                        <p>便秘</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/16.gif" alt="">
+                        <p>消化不良</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/17.gif" alt="">
+                        <p>痔疮</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/18.gif" alt="">
+                        <p>腹痛腹泻</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/19.gif" alt="">
+                        <p>支气管炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/20.gif" alt="">
+                        <p>咳嗽肺热</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/21.gif" alt="">
+                        <p>哮喘</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/22.gif" alt="">
+                        <p>气管炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/23.gif" alt="">
+                        <p>肺结核</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/24.gif" alt="">
+                        <p>胃炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/25.gif" alt="">
+                        <p>高血压</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/26.gif" alt="">
+                        <p>心肌炎</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/27.gif" alt="">
+                        <p>脑血栓</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </section>
+<!--内容结束-->
+
+<!--底部开始-->
+<div class="dibutu">
+    <ul>
+        <li>
+            <img src="images/7.png" alt="">
+            <p>首页</p>
+        </li>
+        <li>
+            <img src="images/6.png" alt="">
+            <p>搜索</p>
+        </li>
+        <li>
+            <img src="images/5.png" alt="">
+            <p>购物车</p>
+        </li>
+        <li>
+            <img src="images/8.png" alt="">
+            <p>商店</p>
+        </li>
+    </ul>
+</div>
+<!--底部结束-->
+</body>
+</html>

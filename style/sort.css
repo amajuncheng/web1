@@ -1,0 +1,83 @@
+body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.sort {
+    max-width:7.5rem;
+    min-width: 3.2rem;
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+    background: #f0f0f0;
+     position:relative;
+    overflow:hidden;
+    left:0; right: 0;
+
+}
+.sort .sort-left {
+    width:2.33rem;
+    background:rgba(255,255,255,1);
+    overflow-y:scroll;/*溢出滚动*/
+    float:left;
+    position:absolute;
+    left:0; top:0.88rem;
+    bottom:1rem;/*后面这三项定位*/
+
+}
+.sort .sort-left ul{}
+.sort .sort-left ul li{
+    height:0.9rem;
+    line-height:0.9rem;
+    text-align: center;
+    /*padding-left:0.3rem;*/
+}
+.sort .sort-left a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #15bf8e;
+}
+.sort .sort-left a.current{
+    color:#15bf8e;
+    background:#eeeeee;
+    border-left:0.06rem solid #15bf8e;
+}
+.sort .sort_right {
+    width: 4.86rem;
+    overflow-y: scroll;
+    float: right;
+    position: absolute;
+    top: 0.88rem;
+    right: 0;
+    bottom: 1rem;
+}
+.sort .sort_right .con {
+    width: 100%;
+    height: 100%;
+}
+.sort .sort_right .con .tit {
+    color: #15bf8e;
+    font-size: 0.24rem;
+    margin-top: 0.22rem;
+    margin-bottom: 0.20rem;
+}
+.sort .sort_right .con ul {
+    width: 100%;
+    background: white;
+}
+.sort .sort_right .con ul li {
+    float: left;
+    padding:0.02rem;
+}
+.sort .sort_right .con ul li a img {
+    width: 1.40rem;
+    height:1.40rem;
+}
+.sort .sort_right .con ul li p{
+    font-size: 0.22rem;
+    text-align: center;
+}
+.dibutu ul{
+    border-top: 0.01rem solid #bdbdbd;
+}
